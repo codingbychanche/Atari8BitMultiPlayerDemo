@@ -471,11 +471,11 @@ screenl
 	ldx pm2x,y	; Get hpos for player 1
 
 	;sta wsync  ; IF YOU ENABLE THIS WSYNC, EACH PLAYER IS
-				; DISPLAYED IN DOUBLE LINE RESULUTION
+				; DISPLAYED IN DOUBLE LINE RESOLUTION
 				; SCREEN WILL ALSO BE IN DOUBLE LINE RES.
 				; (E.G. : IF YOU CHANGE THE BK COLOR, EACH COLOR
 				; CHANGE TAKES 2 SCANLINES)
-				; WHY SHOULD ONE DO THIS......
+				; WHY SHOULD ONE DO THIS?
 
 	sta 53262	; Write data for player 1
 	stx hposp1	; Set hpos for player 1
